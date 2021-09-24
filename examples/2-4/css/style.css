@@ -2,6 +2,10 @@
 	property: value;
 } */
 
-body{
+body {
 	background-color: pink;
+}
+
+p {
+	background-color: green;
 }
