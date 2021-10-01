@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+	<head>
+		<title>Quiz 1</title>
+		<style>
+			/* Define your CSS style here, and DO NOT use inline CSS style with the "style" attribute. */
+			/* Your CSS styles must be as simple as possible. */
+			@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap');
+		</style>
+	</head>
+	<body>
+		<article style="background-color: purple;">
+			This line has a sans-serif font in a purple background.
+			<section style="font-family: serif; background-color: pink;">This line has a serif font in a pink background. </section>
+			<div style="font-family: serif; background-color: purple;">This line has a serif font in a purple background.</div>
+			<p style="font-family: sans-serif; background-color: pink">This line has a sans-serif font in a pink background.</p>
+		</article>
+	</body>
+</html>
