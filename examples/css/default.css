@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;  /* 要用到整個瀏覽器視窗 */
+	width: 100%;
+}
+
+body {
+	overflow-x: hidden;  /* 捲軸 （縱向）*/
+	overflow-y: auto;
+}
+
+a {
+	text-decoration: none;  /*  超連結不會有底線 */
+}
