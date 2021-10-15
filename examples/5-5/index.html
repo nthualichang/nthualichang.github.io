@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>Example 5-5: HTML Structure and CSS Pseudo-class</title>
+		<link rel="stylesheet" type="text/css" href="../css/default.css">
+		<style>
+			body {
+				font-size: 24px;
+			}
+
+			p:first-of-type {
+				background-color: orange;
+			}
+
+		</style>
+	</head>
+	<body>
+		<p>This is a paragraph.</p>  <!-- 注意不能與其他元件的id重複 -->
+		<div>
+			This is a div.
+			<p>This is another paragraph.</p>
+			<p>This is the last paragraph.</p>
+		</div>
+		<div>
+			Here is just another div.
+		</div>
+		<div>
+			I don't like other div.
+		</div>
+	</body>
+</html>
