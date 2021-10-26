@@ -81,7 +81,7 @@ nav > a: visited {   /* 使點過的連結不會變色 */
 	color: white;
 }
 
-a, a:visited {
+a, a: visited {
 	color: #323232;
 	text-decoration: underline;
 }
