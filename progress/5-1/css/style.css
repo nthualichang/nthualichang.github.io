@@ -81,6 +81,10 @@ nav > a:not(:first-of-type) {
 	border-left: solid 2px white;
 }
 
+nav a:first-of-type {
+	width: 2.4vw;
+}
+
 nav > a:visited {   /* 使點過的連結不會變色 */
 	color: white;
 }
