@@ -77,6 +77,10 @@ nav > a {
 	opacity: 0.6;
 }
 
+nav > a {
+	border-left: solid 2px white;
+}
+
 nav > a: visited {   /* 使點過的連結不會變色 */
 	color: white;
 }
