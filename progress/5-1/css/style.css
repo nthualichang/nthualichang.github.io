@@ -82,7 +82,7 @@ nav > a:not(:first-of-type) {
 }
 
 nav a:first-of-type {
-	width: 2.4vw;
+	width: 2.4vw;      /* 暫緩，inline elements 無法直接設定高寬度 */
 }
 
 nav > a:visited {   /* 使點過的連結不會變色 */
