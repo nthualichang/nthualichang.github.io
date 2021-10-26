@@ -77,15 +77,15 @@ nav > a {
 	opacity: 0.6;
 }
 
-nav > a {
+nav > a:not(:first-of-type) {
 	border-left: solid 2px white;
 }
 
-nav > a: visited {   /* 使點過的連結不會變色 */
+nav > a:visited {   /* 使點過的連結不會變色 */
 	color: white;
 }
 
-a, a: visited {
+a, a:visited {
 	color: #323232;
 	text-decoration: underline;
 }
