@@ -56,6 +56,10 @@ section {
 	margin: 1.2vh 0;
 }
 
+section > p {
+	text-indent: 5%;  /* 根據瀏覽器大小 */
+}
+
 p {
 	margin: 0.2vh 0;
 }
