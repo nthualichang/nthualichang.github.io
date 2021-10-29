@@ -13,5 +13,8 @@
 }
 
 // Variable
-var emptyVar: // A statement that creates a variable called "emptyVar"  可想成“容器”
+var emptyVar; // A statement that creates a variable called "emptyVar"  可想成“容器”
 console.log(emptyVar); //undefined
+
+var num = 5; // A statement that creates a variable called "num" with a default numeric value
+console.log(num)
