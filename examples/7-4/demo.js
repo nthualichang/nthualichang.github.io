@@ -10,4 +10,7 @@ var calc = math4 + math5; // Add math4 to math5 and store the result in the vari
 //console.log(calc);
 
 var msg = 'The result of calculationo is: ' + calc; // Combine a numeric value with a string as a string
-console.log(msg)
+console.log(msg); 
+
+var notANumber = '0' + '100'; // These are strings not numbers!
+console.log(notANumber);
