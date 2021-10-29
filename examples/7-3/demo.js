@@ -29,3 +29,6 @@ x = 25; // Change the value of a variable
 var name = 'Mike'; // Create a variable with a string as its default value
 var anotherName = "John"; // A pair of double-quotation marks also work for a string
 //var badQuotation = 'Ah"; // Different qutation marks cause errors
+
+x = 'This is a variable called x'; // Change the value to a different type of data; not recommended
+//console.log(x);
