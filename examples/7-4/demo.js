@@ -13,11 +13,14 @@ var msg = 'The result of calculationo is: ' + calc; // Combine a numeric value w
 //console.log(msg); 
 
 var notANumber = '0' + '100'; // These are strings not numbers!
-console.log(notANumber);
+//console.log(notANumber);
 
 // Mixing math calculations with string combination
 var test1 = 'Result:' + 5 + 10;
 var test2 = 'Result:' + 5 * 10;
-console.log(test1);
-console.log(test2);
+//console.log(test1);
+//console.log(test2);
+
+var newString = 'I do not need the word DUMB.' - 'DUMB';  // Strings can only be added with +
+//console.log(newString); // NaN = Not a Number
 
