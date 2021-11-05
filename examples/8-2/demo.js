@@ -29,5 +29,10 @@ var profile = {
 	weight:72
 };
 
-console.log(profile.name); // Get the value of the "name" key
-console.log(profile['name']); // Same
+//console.log(profile.name); // Get the value of the "name" key
+//console.log(profile['name']); // Same
+
+var key = 'name';
+console.log(profile[key]);
+var key = 'age';
+console.log(profile[key]);
