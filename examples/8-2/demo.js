@@ -12,3 +12,5 @@ console.log(numArray); // Entire array
 var students = ['Tom', 'Mary', 'Victor', 'John'];
 
 var proflie = ['TY Chen', 'NTHU', 40, 180, 72];
+
+console.log(proflie[0]);
