@@ -33,6 +33,22 @@ var profile = {
 //console.log(profile['name']); // Same
 
 var key = 'name';
-console.log(profile[key]);
+//console.log(profile[key]);
 var key = 'age';
-console.log(profile[key]);
+//console.log(profile[key]);
+
+profile.name = 'Tsung-Ying Chen'; // Change the "name" key
+//console.log(profile.name)
+
+profile.gender = 'Male'; // Add a new "gender" key
+//console.log(profile.gender);
+
+delete profile.gender; // Delete a Key
+//console.log(profile.gender);
+
+
+
+
+
+
+
