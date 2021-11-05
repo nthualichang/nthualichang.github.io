@@ -19,10 +19,9 @@ function complexCalc(x, y) {
 	result = x * y;
 	result = result / (x - y);
 	result = result * y - x;
-	alert('Hey!')
+	//alert('Hey!')
 	return result;
-	alert('Not executed QQ.');
-
+	//alert('Not executed QQ.');
 }
 
 var calcResult = complexCalc(4,6);
