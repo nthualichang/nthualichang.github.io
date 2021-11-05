@@ -46,6 +46,42 @@ profile.gender = 'Male'; // Add a new "gender" key
 delete profile.gender; // Delete a Key
 //console.log(profile.gender);
 
+// A more complex profile object
+profile = {
+	name: 'TY Chen',
+	age: 39,
+	affiliation: 'NTHU',
+	height: 180,
+	weight: 72,
+	contact: {
+		home: 227682149, // Don't call!
+		mobile: [927149506, 956771481, 982983143], // Don't call!
+		email: 'chen.ty@mx.nthu.edu.tw'
+	}
+};
+
+// Get a key from an object that is stored in a key of another object
+//console.log(profile.contact.home); 
+//console.log(profile.contact.mobile[1]); 
+
+function printMsg(msg) {
+	console.log(msg);
+}
+
+function simpleCalc(x, y) {
+	console.log(x + y);
+}
+
+var demoFuncs = {
+	print: printMsg,
+	calc: simpleCalc
+}
+
+
+
+
+
+
 
 
 
