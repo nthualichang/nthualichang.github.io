@@ -19,13 +19,24 @@ window.onload = function () {
 		//alert('true!')
 	}
 
-	if(2 === 2) {
-		alert('Condition 1 is true!');
+	//Multiple separate conditions
+	if(2 === '2') {
+		//alert('Condition 1 is true!');
 	}
-	else if('a' === 'b') {
-		alert('Condition 2 is true!');
+	else if('a' === 'a') {
+		//alert('Condition 2 is true!');
 	}
 	else {
-		alert('Neither is true QQ.')
+		//alert('Neither is true QQ.')
+	}
+
+	if(2 === 2 && 15 === 10) { // && means AND
+		alert('Condition 1 is true.');
+	}
+	else if(2 === 2 || 15 === 10) { // || means OR
+		alert('Condition 2 is true.');
+	}
+	else {
+		alert('Neither is true.');
 	}
 };
