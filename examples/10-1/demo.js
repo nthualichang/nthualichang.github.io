@@ -27,13 +27,14 @@ window.onload = function () {
 		//alert('Condition 2 is true!');
 	}
 	else {
-		//alert('Neither is true QQ.')
+		//alert('Neither is true QQ.');
 	}
 
+	// AND vs. OR in the same line
 	if(2 === 2 && 15 === 10) { // && means AND
 		alert('Condition 1 is true.');
 	}
-	else if(2 === 2 || 15 === 10) { // || means OR
+	else if(2 !== 2 || 15 === 10) { // || means OR
 		alert('Condition 2 is true.');
 	}
 	else {
