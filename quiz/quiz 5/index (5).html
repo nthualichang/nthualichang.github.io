@@ -19,7 +19,7 @@
 
  				let button1 = document.getElementById('butt1');
  				button1.addEventListener('click',function(){
-					firstDiv.style.backgroundColor = 'red';
+					firstDiv.style.cssText = 'background-color: red; width: 100px; height: 40px;'
 			
 				})
 
@@ -27,15 +27,13 @@
 
 				let button2 = document.getElementById('butt2');
  				button2.addEventListener('click',function(){
-					secDiv.style.backgroundColor = 'black';
-				})
+					secDiv.style.cssText = 'background-color: black; width: 60px; height: 150px;'
 
 				let thirdDiv = document.getElementById('div3');
 
 				let button3 = document.getElementById('butt3');
  				button3.addEventListener('click',function(){
-					thirdDiv.style.backgroundColor = 'gold';
-				})
+					thirdDiv.style.cssText = 'background-color: gold; width: 200px; height: 200px;'
 			};
 		</script>
 	</head>
