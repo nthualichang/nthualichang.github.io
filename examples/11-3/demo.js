@@ -4,8 +4,19 @@ window.onload = function() {
 	//console.log(ps[0]);
 
 	// Get the last element in Javascript and jQuery
-	let ps = document.querySelectorAll('body > p');
-	let emLength = ps.length;
-	let lastPos = emLength - 1;
-	console.log(ps[lastPos]);
+	// Plain JavaScript
+	let psJS = document.querySelectorAll('body > p');
+	let emLengthJS = psJS.length;
+	let lastPosJS = emLengthJS - 1;
+	//console.log(psJS[lastPosJS]);
+
+	//jQuery, eq() = equal or equivalent
+	let psJQ = $('body > p');
+	//console.log(psJQ.eq(-1)); // Negative number = counting from the end
+	//console.log(psJQ.eq(0)); // 0 or positive number = counting from the beginning
+
+	// Get HTML from an element: innerHTML vs html()
+	console.log(psJS[lastPosJS].innerHTML); // Plain Javascript
+	console.log(psJQ.eq(-1).html()); // jQuery 
+	console.log(psJQ.eq(-1).innerHTML); // Mixing jQuery with JavaScript = 'undefined'
 };
