@@ -16,7 +16,11 @@ window.onload = function() {
 	//console.log(psJQ.eq(0)); // 0 or positive number = counting from the beginning
 
 	// Get HTML from an element: innerHTML vs html()
-	console.log(psJS[lastPosJS].innerHTML); // Plain Javascript
-	console.log(psJQ.eq(-1).html()); // jQuery 
-	console.log(psJQ.eq(-1).innerHTML); // Mixing jQuery with JavaScript = 'undefined'
+	//console.log(psJS[lastPosJS].innerHTML); // Plain Javascript
+	//console.log(psJQ.eq(-1).html()); // jQuery 
+	//console.log(psJQ.eq(-1).innerHTML); // Mixing jQuery with JavaScript = 'undefined'
+
+	// Change the HTML contents of an element
+	//psJS[lastPosJS].innerHTML = 'Content Changed!'; //Plain JavaScript
+	psJQ.eq(-1).html('Content Changed!'); //jQuery
 };
