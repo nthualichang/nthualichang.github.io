@@ -4,10 +4,22 @@
 		<meta charset="utf-8">
 		<title>Example 12-5: Interactive Anitmation with jQuery</title>
 		<script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+		<script>
+			window.onload = function() {
+				$('button').on('click', function() {
+					$('div').addClass('animated');
+				});
+			};
+			
+		</script>
 		<style>
 			div {
 				width: 100px;
 				height: 100px;
+			}
+
+			div.animate {
+				animation: bgChange 1s linear infinate alternate;
 			}
 
 			@keyframes bgChange {
