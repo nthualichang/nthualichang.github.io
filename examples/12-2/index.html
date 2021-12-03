@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>Example 12-2: Special Visual Effects with Transition</title>
+		<style>
+			div {
+				background-color: red;
+				color: red;
+				font-size: 50px;
+			}
+
+			div:hover {
+				color: white;
+				font-size: 70px;
+				transition: color 5s linear, font-size 0.5s ease-out;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			First Div
+		</div>
+	</body>
+</html>
