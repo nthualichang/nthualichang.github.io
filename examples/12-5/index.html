@@ -3,11 +3,16 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Example 12-5: Interactive Anitmation with jQuery</title>
-		<script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+		<script type="text/javascript" src="..//js/jquery-3.6.0.min.js"></script>
 		<script>
 			window.onload = function() {
-				$('button').on('click', function() {
+				$('button').eq(0).on('click', function() {
 					$('div').addClass('animated');
+					
+				});
+
+				$('button').eq(1).on('click', function() {
+					$('div').removeClass('animated');
 				});
 			};
 			
@@ -18,7 +23,7 @@
 				height: 100px;
 			}
 
-			div.animate {
+			div.animated {
 				animation: bgChange 1s linear infinate alternate;
 			}
 
@@ -42,5 +47,6 @@
 	<body>
 		<div></div>
 		<button>Animate!</button>
+		<button>Stop!</button>
 	</body>
 </html>
