@@ -14,12 +14,30 @@
  				// appear one by one using the jQuery animate() function.
  				$('button#lightUp').on('click', function() {
  					// Try to use animate() to change three CSS settings in order to make a <span> appear.
+ 					$('span').eq(index).animate({
+ 						top: '1vw',
+ 						height:'60px',
+ 						opacity: '1'
+ 					}, 1000).animate({
+ 						right: '90vw'
+ 					}, 1000);
+ 					index = index + 1
+ 					
  				});
 
  				// Edit the jQuery event listener for the "Turn off!" button here to make every <span>
  				// disappear one by one using the jQuery animate() function.
- 				$('buttonTurnOff').on('click', function() {
+
+ 				$('button#turnOff').on('click', function() {
  					// Try to animate() to rest three CSS settings in order to make a <span> disappear.
+ 					$('span').eq(index).animate({
+ 						right: '0'
+ 					}, 1000).animate({
+ 						top: '0',
+ 						height: '0',
+ 						opacity:'0'
+ 					}, 1000);
+ 					index = index - 1
  				});
 			};
 		</script>
