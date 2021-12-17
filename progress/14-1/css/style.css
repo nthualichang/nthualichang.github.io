@@ -79,9 +79,11 @@ nav > a {
 	padding: 2px 4px;
 	text-decoration: none;   /* 超連結去底線 */
 	opacity: 0.6;
+	transition: all 1s ease-out;
 }
 
 nav > a:not(:first-of-type) {
+	display: none;
 	border-left: solid 2px white;
 }
 
@@ -93,6 +95,7 @@ nav a:first-of-type {
 
 nav > a:hover {
 	opacity: 0.95;
+	transition: all 1s ease-out;
 }
 
 nav > a:visited {   /* 使點過的連結不會變色 */
