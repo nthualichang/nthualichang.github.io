@@ -86,7 +86,8 @@ nav > a:not(:first-of-type) {
 }
 
 nav a:first-of-type {
-	width: 2.4vw;      /* 暫緩，inline elements 無法直接設定高寬度 */
+	/*width: 2.4vw;*/      /* 暫緩，inline elements 無法直接設定高寬度 */
+	padding: 2px 10px;
 }
 
 
