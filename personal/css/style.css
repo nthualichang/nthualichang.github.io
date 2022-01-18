@@ -42,7 +42,7 @@ section {
 	margin: 1.2vh 0;
 }
 
-section > p {
+section p {
 	text-indent: 5%;  /* 根據瀏覽器大小 */
 }
 
@@ -52,11 +52,12 @@ p {
 
 nav {
 	position: fixed;
-	top: 10px;
-	left: 10px;
+	top: 0;
+	right: 10px;
 	font-family: Poppins, sans-serif;
 	font-size: 2vh;
 	line-height: 3vh;
+	
 }
 
 nav > a {
