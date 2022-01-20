@@ -3,32 +3,29 @@
 	<head>
 		<title>Expository Essay Analysis: Example</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 		<script src="./js/demo.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script>
 			window.onload = function() {
-				$(window).on('scroll',function() {
+				$(window).on('scroll', function() {
 					let allSections = $('article > section');
 					let screenHeight = $(window).height();
 					let scrollTop = $(window).scrollTop();
 					allSections.each(function(index) {
 						let section = allSections.eq(index);
 						if(screenHeight + scrollTop - 50 > section.offset().top) {
-							section.animate({'top':0, 'opacity':1},500);
+							section.animate({'top': 0, 'opacity': 1}, 500);
 						}
 					});
 				});
 			};
 		</script>
-		
-		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<style>
 			img {
 				max-width: 80%;
 				max-height: auto;
 			}
-
 			span.joint {
 				color: #a6611a;
 			}
