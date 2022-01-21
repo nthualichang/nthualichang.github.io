@@ -84,5 +84,10 @@ nav > a:hover {
 	transition: all 0.5s ease-out;
 }
 
+#p1  {
+float: right;    
+ margin: 0 0 0 5vw;
+}
+
 
 
